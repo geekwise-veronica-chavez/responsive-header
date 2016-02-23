@@ -11,7 +11,8 @@ header{
     background-color: #017ba0  ;
     border: 1rem solid grey;
     width: auto;
-    height: 40rem;
+    height: 50rem;
+    line-height: 50rem;
     
     
 }
@@ -27,8 +28,7 @@ img{
     display: block;
     margin: auto;
     padding: 0;
-    width:auto;
-    height: 38rem;
+    width:calc(3008px/8);
     max-width:auto;
     max-height: auto;
     border: 1rem solid grey
@@ -44,12 +44,11 @@ img{
     }
     
     img{
-        border:  1rem solid white;
-        padding: 10px;
-        transform: translateY(calc(100%/1.))    
+
+        transform: translateY(calc(100%/2.3))    
     }
 }
-@media only screen and (max-width:90rem){
+@media only screen and (min-width:50rem){
     img{
         border: 2rem break blue;
         transform: translateY(calc (100%/))
