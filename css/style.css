@@ -12,8 +12,7 @@ header{
     border: 1rem solid grey;
     width: auto;
     height: 50rem;
-    line-height: 50rem;
-    
+
     
 }
 span{
@@ -48,10 +47,24 @@ img{
         transform: translateY(calc(100%/2.3))    
     }
 }
+@media only screen and (min-width:40rem){
+    header{
+        background-color: #017ba0;
+        
+    }
+    img{
+        border: 1rem solid white;
+        transform: translateY(calc(100%/2.5));
+    }
+    
+}
 @media only screen and (min-width:50rem){
+    header{
+        background-color: aliceblue;
+    }
     img{
         border: 2rem break blue;
-        transform: translateY(calc (100%/))
+        transform: translateY(120px);
         
     }
 }
