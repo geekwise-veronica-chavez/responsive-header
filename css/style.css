@@ -1,0 +1,62 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    height: 100%;
+    
+    
+}
+header{
+    background-color: #017ba0  ;
+    border: 1rem solid grey;
+    width: auto;
+    height: 40rem;
+    
+    
+}
+span{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%;
+    
+  
+}
+img{
+    display: block;
+    margin: auto;
+    padding: 0;
+    width:60%;
+    max-width:60rem;
+}
+@media only screen and (max-width:20rem){
+    header{
+        background-color: darkgrey;
+    }
+    img{
+        transform: translateY(100%2)
+    }
+}
+@media only screen and (max-width:40rem){   header{
+        background-color: #8ebde9;
+    }
+    span{ 
+        width: auto;
+        background-color: azure;
+    }
+    
+    img{
+        border:  1rem solid white;
+        transform: translateY(calc(100%/3))    
+    }
+}
+@media only screen and (max-width:80rem){
+    span{ 
+        width: auto;
+        background-color: lightcyan;
+        transform: translateY(100%/2)
+        
+
+    }
+}
