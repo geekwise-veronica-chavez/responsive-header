@@ -27,18 +27,15 @@ img{
     display: block;
     margin: auto;
     padding: 0;
-    width:60%;
-    max-width:60rem;
+    width:auto;
+    height: 38rem;
+    max-width:auto;
+    max-height: auto;
+    border: 1rem solid grey
 }
-@media only screen and (max-width:20rem){
+
+@media only screen and (max-width:40rem){   
     header{
-        background-color: darkgrey;
-    }
-    img{
-        transform: translateY(100%2)
-    }
-}
-@media only screen and (max-width:40rem){   header{
         background-color: #8ebde9;
     }
     span{ 
@@ -48,15 +45,15 @@ img{
     
     img{
         border:  1rem solid white;
-        transform: translateY(calc(100%/3))    
+        padding: 10px;
+        transform: translateY(calc(100%/1.))    
     }
 }
-@media only screen and (max-width:80rem){
-    span{ 
-        width: auto;
-        background-color: lightcyan;
-        transform: translateY(100%/2)
+@media only screen and (max-width:90rem){
+    img{
+        border: 2rem break blue;
+        transform: translateY(calc (100%/))
         
-
     }
 }
+    
