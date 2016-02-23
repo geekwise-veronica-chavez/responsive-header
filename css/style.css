@@ -54,7 +54,7 @@ img{
         
     }
     img{
-        border: 1rem solid white;
+        border: 1rem solid blue;
         transform: translateY(calc(100%/2.));
     }
     
@@ -65,8 +65,7 @@ img{
         
     }
     img{
-        border: 1rem solid white;
-        
+        border: 1rem solid white;   
     }
     
 }    
@@ -74,9 +73,6 @@ img{
 
     }
     img{
-        border: 1rem solid gray;
-        
-        
-        
+        border: 1rem solid gray; 
     }
 }
